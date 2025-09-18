@@ -1,0 +1,98 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Courier New', monospace;
+    background-color: #1c1f26;
+    color: #ddd;
+    display: flex;
+  }
+  
+ 
+  
+  /* Topbar */
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .topbar .brand {
+    font-weight: bold;
+    color: #eaff00;
+  }
+  .topbar nav a {
+    margin: 0 10px;
+    color: #bbb;
+    text-decoration: none;
+  }
+  .topbar nav a:hover {
+    color: #eaff00;
+  }
+  .topbar .lang {
+    color: #999;
+  }
+  
+  /* Seções */
+  main {
+    flex: 1;
+    padding: 20px 40px;
+  }
+  h2 {
+    margin: 40px 0 20px;
+    color: #eaff00;
+  }
+  p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Skills grid */
+  .skills-grid {
+    display: flex;
+    gap: 20px;
+  }
+  .skills-grid div {
+    border: 1px solid #444;
+    padding: 15px;
+    flex: 1;
+  }
+  
+  /* Footer */
+  footer {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    gap: 40px; /* espaço entre os dois */
+    padding: 20px;
+    border-top: 1px solid #333;
+    margin-top: 40px;
+    text-align: center;
+  }
+  footer .footer-left {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #999;
+    flex-direction: column;
+  }
+  footer .footer-right h4 {
+    margin-bottom: 10px;
+    color: #eaff00;
+  }
+  footer .footer-right a {
+    margin-right: 10px;
+    color: #bbb;
+    text-decoration: none;
+  }
+  footer .footer-right a:hover {
+    color: #eaff00;
+  }
+  .sobre {
+display: flex;
+flex-wrap: wrap;
+  }

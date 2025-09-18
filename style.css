@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Foto circular com neon */
+  .profile {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+   
+    border: 10px solid #eaff00;
+    box-shadow: 0 0 25px 5px #ff004c;
+  }
+  .profile img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  /* Nome na direita */
+  .name {
+    
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        text-align:  center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #eaff00;
+        
+        
+  }
+  .menu a{
+    text-decoration: none;
+    color: white;
+  }
+  /* Menu vertical */
+  .menu {
+    position: absolute;
+    top: 50%;
+    right: -65px;
+    transform: translateY(-50%) rotate(90deg);
+    display: flex;
+    gap: 30px;
+    font-size: 0.9rem;
+    padding-right: 50px;
+
+  }
+
+  /* Logo no canto esquerdo */
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+ 
+    color: #eaff00;
+  }
+
+  /* Cargo no canto esquerdo inferior */
+  .role {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-weight: bold;
+    color: #eaff00;
+    display: flex;
+    
+  }
+
+  /* Redes sociais */
+  .socials {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    gap: 15px;
+    font-size: 1.2rem;
+  }
+
+  .socials a:hover {
+    color: #eaff00;
+  }
