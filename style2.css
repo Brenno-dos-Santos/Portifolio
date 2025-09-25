@@ -52,11 +52,11 @@
   }
   
   /* Skills grid */
-  .skills-grid {
+  .skills-card{
     display: flex;
     gap: 20px;
   }
-  .skills-grid div {
+  .skills-card div {
     border: 1px solid #444;
     padding: 15px;
     flex: 1;
@@ -73,26 +73,28 @@
     margin-top: 40px;
     text-align: center;
   }
-  footer .footer-left {
+  footer .footer-esquerda {
     justify-content: center;
     display: flex;
     align-items: center;
     color: #999;
     flex-direction: column;
   }
-  footer .footer-right h4 {
+  footer .footer-direita h4 {
     margin-bottom: 10px;
     color: #eaff00;
   }
-  footer .footer-right a {
+  footer .footer-direita a {
     margin-right: 10px;
     color: #bbb;
     text-decoration: none;
   }
-  footer .footer-right a:hover {
-    color: #eaff00;
-  }
+  
   .sobre {
 display: flex;
 flex-wrap: wrap;
+  }
+    
+  nav a:hover, nav a.ativo {
+    color: #FFE72F;
   }

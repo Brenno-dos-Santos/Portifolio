@@ -1,0 +1,115 @@
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: monospace, Arial, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    line-height: 1.6;
+    min-height: 100%;
+  }
+  
+  /* HEADER */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: #161b22;
+    border-bottom: 1px solid #30363d;
+  }
+  
+  .logo {
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #c9d1d9;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover, nav a.ativo {
+    color: #FFE72F;
+  }
+
+  .contatos {
+    
+    padding: 4rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .contatos h1 {
+    font-size: 2rem;
+    color: #FFE72F;
+    margin-bottom: 1rem;
+  }
+  
+  .contatos p {
+    margin-bottom: 1rem;
+    color: #8b949e;
+  }
+  
+  .contato-card {
+    border: 1px solid #c9d1d9;
+    padding: 1rem 2rem;
+    background: transparent;
+    max-width: 300px;
+  }
+  
+  /* FOOTER */
+  footer {
+    margin-top: 400px;
+    border-top: 1px solid #30363d;
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #161b22;
+    height: 25vh;
+  }
+  
+  footer .info p {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer .media {
+    text-align: right;
+  }
+  
+  footer .media h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer .icons a {
+    color: #c9d1d9;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  footer .icons a:hover {
+    color: #d466f2;
+  }
+  
+  footer .copy {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: #8b949e;
+  }
+  
